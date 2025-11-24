@@ -20,7 +20,7 @@ public class ShowFastResult implements UserAction {
 
     @Override
     public boolean execute(Input input, StoreAndGame storeAndGame) {
-        StoreResult storeResult = storeAndGame.getStoreResult();
+        StoreResult storeResult = storeAndGame.storeResult();
         if (!storeResult.getAllResults().isEmpty()) {
             out.println(storeResult.getFast().toString());
         }

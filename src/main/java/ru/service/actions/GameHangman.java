@@ -20,7 +20,7 @@ public class GameHangman implements UserAction {
 
     @Override
     public boolean execute(Input input, StoreAndGame games) {
-        StoreResult storeResult = games.getStoreResult();
+        StoreResult storeResult = games.storeResult();
         Game game = games.getGame(GameNames.HANGMAN);
         game.init(storeResult);
         game.startGame();

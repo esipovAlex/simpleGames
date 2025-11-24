@@ -23,7 +23,7 @@ public class ShowAllResults implements UserAction{
 
     @Override
     public boolean execute(Input input, StoreAndGame storeAndGame) {
-        StoreResult storeResult = storeAndGame.getStoreResult();
+        StoreResult storeResult = storeAndGame.storeResult();
         List<Result> allResults = storeResult.getAllResults();
         allResults.forEach(out::println);
         return true;

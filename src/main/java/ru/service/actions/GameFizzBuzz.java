@@ -21,7 +21,7 @@ public class GameFizzBuzz implements UserAction {
 
     @Override
     public boolean execute(Input input, StoreAndGame games) {
-        StoreResult storeResult = games.getStoreResult();
+        StoreResult storeResult = games.storeResult();
         Game game = games.getGame(GameNames.FIZZBUZZ);
         game.init(storeResult);
         game.startGame();
