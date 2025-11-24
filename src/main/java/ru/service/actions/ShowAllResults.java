@@ -8,7 +8,7 @@ import ru.service.store.StoreResult;
 
 import java.util.List;
 
-public class ShowAllResults implements UserAction{
+public class ShowAllResults implements UserAction {
 
     private final Output out;
 

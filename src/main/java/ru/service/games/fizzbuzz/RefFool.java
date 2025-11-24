@@ -48,7 +48,6 @@ public class RefFool implements Game {
         }
     }
 
-
     @Override
     public Result startGame() {
         Result result = new Result();

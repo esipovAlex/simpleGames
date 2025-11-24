@@ -5,7 +5,7 @@ import ru.service.games.hangman.messages.Message;
 
 import java.util.List;
 
-public abstract class ValidatorHandler implements ValidCheck{
+public abstract class ValidatorHandler implements ValidCheck {
 
     private ValidCheck next;
 

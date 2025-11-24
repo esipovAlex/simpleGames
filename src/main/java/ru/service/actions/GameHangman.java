@@ -8,7 +8,9 @@ import ru.service.model.GameNames;
 import ru.service.model.StoreAndGame;
 
 public class GameHangman implements UserAction {
+
     private final Output output;
+
     public GameHangman(Output output) {
         this.output = output;
     }

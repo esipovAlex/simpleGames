@@ -50,7 +50,7 @@ public class StartUI {
         GameProcessHangman hangman = new GameProcessHangman(fileForHangman);
         gameMap.put(refFool.getName(), refFool);
         gameMap.put(hangman.getName(), hangman);
-        try (StoreResult storeResult = new MemStoreResult()){
+        try (StoreResult storeResult = new MemStoreResult()) {
             storeResult.init();
             List<UserAction> actions = new ArrayList<>();
             actions.add(new GameHangman(output));

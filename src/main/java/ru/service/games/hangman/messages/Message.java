@@ -1,6 +1,7 @@
 package ru.service.games.hangman.messages;
 
 public enum Message {
+
     GREETING("Введите слово: "),
     POSITIVE_RESULT("Вы выиграли"),
     NEGATIVE_RESULT("Вы повешены"),
@@ -15,8 +16,12 @@ public enum Message {
     INPUT_DUPLICATE("Буква уже была использована."),
     ONLY_CYRILLIC("Допускаются только русские буквы в нижнем регистре."),
     USED_LETTERS("Использованные буквы: ");
+
     private final String text;
-    Message(String text) { this.text = text; }
+
+    Message(String text) {
+        this.text = text;
+    }
 
     public String getText() {
         return text;

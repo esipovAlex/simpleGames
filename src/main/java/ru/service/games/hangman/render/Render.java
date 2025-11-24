@@ -17,7 +17,7 @@ public class Render implements Renderer {
     }
 
     @Override
-    public void start( char[] showWord) {
+    public void start(char[] showWord) {
         emptyGallows().forEach(out::println);
         out.println(Message.SHOW_WORD.getText() + String.valueOf(showWord));
     }

@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class StoreWord {
 
-    private static final Random random = new Random();
+    private static final Random RANDOM = new Random();
 
     private StoreWord() {
     }

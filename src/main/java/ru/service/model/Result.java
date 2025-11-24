@@ -61,7 +61,6 @@ public class Result {
         return duration;
     }
 
-
     @Override
     public String toString() {
         return String.format("id: %s, game: %s, result: %s, duration(seconds): %d, start: %s, finished: %s",
