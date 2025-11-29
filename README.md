@@ -1,6 +1,7 @@
 # Виселица
 
 Проект выполнен в рамках roadmap Сергея Жукова.
+https://zhukovsd.github.io/java-backend-learning-course/projects/hangman/
 
 Приложение можно запустить в окне командной строки Windows. Для запуска на компьютере должна быть установлена Java.
 Скачайте архив games.jar, и в том же каталоге выполните команду 'java -jar games.jar' :
